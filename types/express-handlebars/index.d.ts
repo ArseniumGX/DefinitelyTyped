@@ -23,7 +23,7 @@ interface ExphbsOptions {
     extname?: string;
     layoutsDir?: string;
     partialsDir?: any;
-    defaultLayout?: string;
+    defaultLayout?: string | boolean;
     helpers?: any;
     compilerOptions?: any;
 }
